@@ -1,4 +1,27 @@
 Package: cydia-dark
+Version: 1.9.3~chimera5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 9416
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
+Filename: ./debs/cydia-dark_1.9.3~chimera5.deb
+Size: 1366944
+MD5sum: aecb5c5a8717db0a750a6c2a9209e81f
+SHA1: 0765ca536180f7c7587d6198e925de9bb0038d6d
+SHA256: d6a902c38b5a3c5c4c216cb158c9181ce114ca555ba211527122c8ff3df8d513
+Section: Packaging
+Priority: optional
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, role::enduser
+Author: Diatrus <me@diatr.us>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia for Chimera/Electra
+
+Package: cydia-dark
 Version: 1.9.3~chimeramodify1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -8,15 +31,15 @@ Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwint
 Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
 Filename: ./debs/cydia-dark_1.9.3~chimeramodify1_iphoneos-arm.deb
-Size: 1363504
-MD5sum: f96abadfaf8d81e52e87804d8e3f50f6
-SHA1: 89c3251a3ddbf01243adadc2f750cf075941305c
-SHA256: 5d8c693c859d0b4c68dd4b1b41cad80fa6683cab0e36a6808bbf223c6935d76a
+Size: 1363364
+MD5sum: 6028ce2b2b341231f0fb8b6370f5b9a2
+SHA1: 4628927b437e77f25e9379bc85003932507bf45b
+SHA256: 2a6a92c7d45b90ae28369b05f7bf036a6067b5b36e1ccce38d933089e87a49b0
 Section: Acreson-安装包(Packages)
 Priority: optional
 Description: graphical iPhone front-end for APT 修改版本Chimera专用Cydia
 Tag: purpose::uikit, role::enduser
-Author: Acreson <342080124@qq.com>
+Author: Diatr & Acreson
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia for Chimera/Electra Modify
