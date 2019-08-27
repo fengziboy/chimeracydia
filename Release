@@ -1,0 +1,8 @@
+Origin: Acreson's Ch/Cydia Beta Repo
+Label:Acreson's Ch/Cydia Beta Repo
+Suite: stable
+Version: 1.0
+Codename: Acreson
+Architecture: iphoneos-arm
+Components: main
+Description: Chimera/Cydia Beta Repo
