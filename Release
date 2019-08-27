@@ -1,8 +1,8 @@
-Origin: Acreson's Chimera/Cydia Beta Repo
-Label:Acreson's Chimera/Cydia Beta Repo
+Origin: Acreson's Chimera/Cydia Modify Repo
+Label:Acreson's Chimera/Cydia Modify Repo
 Suite: stable
 Version: 1.0
 Codename: Acreson
 Architecture: iphoneos-arm
 Components: main
-Description: Chimera/Cydia Beta Repo Stability testing for version 12.2 and above。针对Chimera越狱 ios12.2以上Cydia测试
+Description: Chimera/Cydia Modify Repo Stability testing for version 12.2 and above。针对Chimera越狱 ios12.2以上Cydia修改测试

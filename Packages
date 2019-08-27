@@ -1,0 +1,63 @@
+Package: cydia-dark
+Version: 1.9.3~chimeramodify1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 9416
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 2.0.0), lzma, cydia
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni, cydia-gui
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd, cydia-gui
+Filename: ./debs/cydia-dark_1.9.3~chimeramodify1_iphoneos-arm.deb
+Size: 1363504
+MD5sum: f96abadfaf8d81e52e87804d8e3f50f6
+SHA1: 89c3251a3ddbf01243adadc2f750cf075941305c
+SHA256: 5d8c693c859d0b4c68dd4b1b41cad80fa6683cab0e36a6808bbf223c6935d76a
+Section: Acreson-安装包(Packages)
+Priority: optional
+Description: graphical iPhone front-end for APT 修改版本Chimera专用Cydia
+Tag: purpose::uikit, role::enduser
+Author: Acreson <342080124@qq.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia for Chimera/Electra Modify
+
+Package: cydia-lproj
+Version: 1.9.3~chimera5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: ./debs/cydia-lproj_1.9.3~chimera5_iphoneos-arm.deb
+Size: 67068
+MD5sum: 8bbbc811e0facd68428880dda7bcfcc7
+SHA1: 73a9f4ab16262a3027ca3d0d4879919734790018
+SHA256: 6b96709cd263d51fd474c0e878a637b90aa1019dbd0571847b6fa509f615cf9b
+Section: Acreson-依赖(Depends)
+Priority: required
+Description: languages and translations for Cydia。Cydia的语言和翻译
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Icon: file:///Applications/Cydia.app/Sections/Addons.png
+Name: Cydia Translations
+
+Package: org.thebigboss.repo.icons
+Version: 1.2
+Architecture: all
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: ./debs/org.thebigboss.repo.icons_1.2_all.deb
+Size: 11632
+MD5sum: 42f468b825c64c28ef7c22ee068a9d44
+SHA1: 923ed3dc73e7d378bc3ca4e3f9fb03f02fedf491
+SHA256: 2166501d3e3986357d535e8b4aae1817f02314ca604c49ad0d10b7255fae7bd1
+Section: Acreson-依赖(Depends)
+Priority: optional
+Multi-Arch: foreign
+Description: locally cached package icons from BigBoss
+Icon: file:///Applications/Cydia.app/Sections/Addons.png
+Name: BigBoss Icon Set
+
